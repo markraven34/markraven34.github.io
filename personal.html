@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Interest with Skills</title>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #111;
+        color: #fff;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        color: #f48302;
+      }
+
+      .skills-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .skill-card {
+        background: #1e1e1e;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        width: 280px;
+        transition: transform 0.3s ease, background 0.3s ease;
+      }
+
+      .skill-card:hover {
+        transform: translateY(-8px);
+        background: #2b2b2b;
+      }
+
+      .skill-card i {
+        font-size: 40px;
+        color: #f48302;
+        margin-bottom: 15px;
+      }
+
+      .skill-card h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: #f48302;
+      }
+
+      .skill-card p {
+        font-size: 15px;
+        color: #ddd;
+        line-height: 1.5;
+      }
+
+      .btn-container {
+        margin-top: 30px;
+      }
+
+      .btn {
+        display: inline-block;
+        background: #f48302;
+        color: #fff;
+        padding: 12px 25px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 18px;
+        transition: background 0.3s ease;
+      }
+
+      .btn:hover {
+        background: #d86f01;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="personal-interest">
+      <h2>Personal Interest</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fas fa-wrench"></i>
+          <h3>Mechanics</h3>
+          <p>fixing my friend's motorcycle</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-gamepad"></i>
+          <h3>Gaming</h3>
+          <p>playing mobile games like cod, mobile legends</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-music"></i>
+          <h3>Music</h3>
+          <p>listening to music by favorite artists.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-broom"></i>
+          <h3>Cleaning</h3>
+          <p>
+            house cleaning such as sweeping, washing dishes and cleaning the
+            room
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-tv"></i>
+          <h3>Watching</h3>
+          <p>watching youtube like fliptop.</p>
+        </div>
+      </div>
+
+      <button onclick="history.back()" style="
+  background-color: #f48302;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+">
+  ← Back
+</button>
+      </div>
+    </section>
+  </body>
+</html>
